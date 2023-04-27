@@ -1,0 +1,9 @@
+{
+	"rules": {
+	  "quotes": [2, "double"],
+	  "parserOptions": {
+        "sourceType": "module"
+    }
+	}
+	
+  }
