@@ -3,20 +3,20 @@ import gql from "graphql-tag";
 import styled from "styled-components";
 import Product from "./Product";
 
-const ALL_PRODUCTS_QUERY = gql`
-	query ALL_PRODUTS_QUERY{
-	products {
-		id
-		name
-		price
-		description
-		photo {
+export const ALL_PRODUCTS_QUERY = gql`
+	query ALL_PRODUCTS_QUERY{
+		products {
 			id
-			image {
-				publicUrlTransformed
+			name
+			price
+			description
+			photo {
+				id
+				image {
+					publicUrlTransformed
+				}
 			}
 		}
-	}
 	}
 `;
 
