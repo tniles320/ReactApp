@@ -1,3 +1,3 @@
 # TODO
 
-A React App based on Sick Fits, created by Wes Bos
+A React App based on Sick Fits by Wes Bos
